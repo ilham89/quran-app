@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import router from "./router";
 import upperFirst from "lodash/upperFirst";
 import camelCase from "lodash/camelCase";
 
@@ -13,4 +14,5 @@ requireComponent.keys().forEach((fileName) => {
     app.component(componentName, componentConfig.default || componentConfig);
 });
 
+app.use(router);
 app.mount("#app");
