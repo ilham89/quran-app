@@ -1,5 +1,6 @@
 <template>
     <div class="hello">{{ title }} + {{ msg }}</div>
+    <div class="text-red-900">haloo</div>
 </template>
 
 <script>

@@ -9,7 +9,6 @@
 
 <script>
 import { ref } from "@vue/reactivity";
-// import { useRouter } from "vue-router";
 export default {
     setup() {
         const nama = ref("ilham");
