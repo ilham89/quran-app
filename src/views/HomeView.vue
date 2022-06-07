@@ -4,7 +4,7 @@
         halo ini pake style tailwind {{ nama }}
     </div>
     <button @click="$router.push('/user/1')">Redirect to "/user/1"</button>
-    <CardSurah :msg="'wahyu'" />
+    <CardSurah />
 </template>
 
 <script>
