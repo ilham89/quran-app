@@ -1,7 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "./index.css";
+import "@/styles/index.css";
+import "@/styles/app.css";
 
 const requireComponent = require.context("./components/", true, /\.(js|vue)$/i);
 const app = createApp(App);
